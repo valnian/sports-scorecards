@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.scorecard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.scorecard th {
+    background-color: #34495e;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.scorecard td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.scorecard tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.scorecard tr:hover {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s;
+}
+
+.scorecard td:first-child {
+    font-weight: 600;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+
+.scorecard .total {
+    font-weight: 700;
+    background-color: #e8f4fc;
+}
+
+.golf .scorecard th {
+    background-color: #27ae60;
+}
+
+.baseball .scorecard th {
+    background-color: #e74c3c;
+}
+
+.bowling .scorecard th {
+    background-color: #3498db;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #34495e;
+    text-decoration: underline;
+}
